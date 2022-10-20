@@ -13,6 +13,11 @@
   box-sizing: border-box;
   font-family:GraphikLCG-Regular;
 }
+body{
+  max-width:1440px ;
+  min-width: 980px;
+  margin: auto;
+}
 header{
   display: flex;
   justify-content: space-around;
@@ -21,7 +26,7 @@ header{
 }
 .container{
   display: flex;
-  width: 95%;
+  width: 1290px;
   justify-content: space-between;
   align-items: center;
 }
@@ -100,12 +105,11 @@ header{
 }
 main{
   display: flex;
-  width: 100%;
   justify-content: center;
   flex-direction: column;
 }
 .main_container{
-  width: 94%;
+  width:1290px;;
   display: flex;
   justify-content:space-between;
   margin:130px auto;
@@ -149,7 +153,7 @@ main{
   margin: auto;
   flex-direction: column;
   display: flex;
-  width: 94%;
+  width: 1290px;
 }
 .banner_title{
   margin:110px auto 0px auto;
@@ -168,35 +172,35 @@ main{
   width: 100%;
   justify-content: space-between;
 }
-.control_first{
-  display: flex;
-  justify-content: space-between;
-  margin: 90px auto 0px;
-  width: 94%;
+.control_container{
+  margin: 90px auto 150px auto;
+  width: 1290px;
 }
-.control_last{
-  display: flex;
-  justify-content: space-between;
-  margin: 250px auto 150px;
-  width: 94%;
-}
+
 .control{
   display: flex;
   justify-content: space-between;
-  margin: 250px auto 0px;
-  width: 94%;
+  margin-top: 250px;
+}
+.control:first-child{
+  margin-top: 0;
+}
+.control:nth-of-type(even){
+  flex-direction: row-reverse;
 }
 .control_image{
-  width: 50%;
+  width: 632px;
+  height: 632px;
   text-align: end;
 }
-.control_image1{
-  width: 50%;
-  text-align: start;
+.control_image-img{
+  width: 632px;
+  height: 632px;
+  
 }
 .control_text{
   margin: auto 0px;
-  width: 45%;
+  
 }
 .control_text_title{
   font-family:GraphikLCG-Semibolt ;
@@ -225,7 +229,7 @@ main{
   background-color:#FFF8E4;
 }
 .lokalize_main{
-  width: 90%;
+  width: 1290px;
   margin: 0 auto;
 }
 .lokalize_title{
@@ -279,7 +283,7 @@ main{
   justify-content: space-around;
   align-items: baseline;
   display: flex;
-  width: 94%;
+  width: 1290px;
   margin: 75px auto 187px auto;
 }
 .block_block{
@@ -321,7 +325,7 @@ main{
 .revolt_cont{
   display: flex;
   justify-content: space-between;
-  width: 94%;
+  width: 1290px;
   margin: 63px auto 105px auto;
 }
 .revolt_about_title{
@@ -347,7 +351,7 @@ main{
   background-color:#DABC98 ;
 }
 .cake_conteiner{
-  width: 94%;
+  width: 1290px;
   display: flex;
   align-items: center;
   margin: 85px auto;
@@ -387,6 +391,7 @@ text-align: left;
   text-align: center;
 }
 .integrate_subtitle{
+  font-family:GraphikLCG-Regular;
   font-size: 25px;
   font-weight: 400;
   line-height: 30px;
@@ -394,7 +399,7 @@ text-align: left;
   text-align: center;
 }
 .integrate_image{
-  margin: 20px auto 32px auto;
+  margin: 25px auto 32px auto;
 }
 .orangeblock{
   background-color: #FF9C7D;
@@ -406,7 +411,7 @@ text-align: left;
   align-items: center;
 }
 .orange_title{
-  font-family: phikLCG-Semibolt;
+  font-family: GraphikLCG-Semibolt;
   font-size: 65px;
   font-weight: 600;
   line-height: 75px;
@@ -414,6 +419,7 @@ text-align: left;
   text-align: center;
 }
 .orange_subtitle{
+  font-family:GraphikLCG-Regular;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -438,7 +444,7 @@ text-align: left;
   display: flex;
 }
 .footer_cont{
-  width: 94%;
+  width: 1290px;
   display: flex;
   margin: 95px auto 0 auto;
   padding-bottom: 95px;
@@ -478,14 +484,17 @@ text-align: left;
 .list_link{
   list-style: none;
   line-height: 35px;
+  font-family: GraphikLCG-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
 }
 .footer_menu{
   width: inherit;
   justify-content: space-evenly;
 }
 .footer_menu_list{
-  margin-bottom: 21px;
-  font-family: GraphikLCG-Semibolt ;
+  font-family:GaphikLCG-Semibolt;
   font-size: 20px;
   font-weight: 600;
   line-height: 45px;
@@ -493,7 +502,7 @@ text-align: left;
   text-align: left;
 }
 .footer_link{
-  font-family: raphikLCG-Regular;
+  font-family: GraphikLCG-Regular;
   font-size: 15px;
   font-weight: 400;
   line-height: 15px;
@@ -512,7 +521,7 @@ text-align: left;
 
 }
 .footer_lowcont{
-  width: 94%;
+  width: 1290px;
   display: flex;
   margin: 52px auto;
   justify-content: space-between;
@@ -531,4 +540,7 @@ text-align: left;
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
+}
+.low_icon{
+  height: fit-content;
 }
