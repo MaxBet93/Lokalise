@@ -1,0 +1,138 @@
+.about{
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+}
+.about_text{
+  padding-right: 30px;
+  p{
+    margin-top: 28px;
+    
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+  }
+}
+.about_reit{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  border-left: 4px solid $separator;
+}
+.about_reit-item{
+  flex-direction: row;
+}
+.item{
+  display: flex;
+  align-items: center;
+  img{
+    margin-right: 12px;
+    height: fit-content;
+  }
+  p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+  }
+}
+.team{
+  margin: 60px auto;
+  position: relative;
+}
+.team_title{
+  position:absolute;
+  top:calc(50% - 117px/2 + 2.5px);
+  left:calc(50% - 478px/2);
+  display: block;
+  text-align: center;
+  color:#ffff;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 117px;
+  letter-spacing: 63px;
+}
+.about_text--last{
+  padding-right: 30px;
+  p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+  }
+}
+.team-title{
+ width: fit-content;
+ margin: 60px auto;
+}
+.catalog{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card{
+ margin-bottom: 60px;
+ background-color: #ffff;
+ border-radius: 12px;
+}
+.card_info{
+  display: flex;
+  justify-content: space-between;
+}
+.card_img{
+ max-width: 400px;
+ max-height: 400px;
+ margin-bottom: 15px;
+ border-radius: 12px;
+}
+.team_img{
+  max-width: 400px;
+  max-height: 450px;
+  float: left;
+  border-radius: 12px;
+}
+.wraper{
+  margin:60px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.info_title{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+.subtitle{
+  h4{
+    padding-top: 30px; 
+  }
+  p:first-child{
+    padding-top: 30px;
+    border-top:4px solid $separator ;
+  }
+  p{
+    padding-top: 15px;
+  }
+}
+.publish{
+  background-color: rgba(245, 245, 250, 1);
+  ;
+}
+.news{
+  display: flex;
+  justify-content: center;
+  margin:32px auto;
+  width: fit-content;
+  background-color: $separator;
+  border-radius: 12px;
+  :first-child{
+    height: fit-content;
+    background-color:#ffff ;
+    border-radius: 12px;
+  }
+}
+.news_news{
+  padding: 10px 30px;
+}
+

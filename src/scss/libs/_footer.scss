@@ -1,0 +1,39 @@
+footer{
+  background-color: #F5F5FA;
+}
+.footer_info{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom:30px;
+}
+.info_block{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+    p{
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    }
+    img{
+      margin-right: 20px;
+    }
+    a{
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color:$ActiveRegular;
+      &:hover{
+        color:$Accent;
+      }
+    }
+  }
+.footer_info-right{
+  padding-top: 30px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $text;
+}
